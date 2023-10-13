@@ -1,0 +1,31 @@
+some practice problems related to using props in React components:
+
+BasicPropPassing:
+Create a parent component that renders a child component. Pass a prop from the parent to the child and display it in the child component.
+
+Dynamic Prop Handling:
+Create a component that takes a prop and displays it dynamically based on the prop's value. For example, if the prop is a number, display the square of the number; if it's a string, display it in uppercase.
+
+Conditional Rendering with Props:
+Modify the child component to conditionally render content based on the value of a prop. If the prop is true, render one type of content; if false, render another type.
+
+Passing Functions as Props:
+Create a parent component that defines a function. Pass this function as a prop to a child component and have the child component call the function when an event (e.g., button click) occurs.
+
+Array of Props:
+Modify the parent component to pass an array of values as a prop to the child component. Have the child component display the array's elements.
+
+Nested Components and Props:
+Create a parent component that renders multiple child components. Pass different props to each child component and display them accordingly.
+
+Updating Props:
+Create a component with an input field. Pass a prop to this component and allow the user to update the prop's value using the input field. Display the updated prop value.
+
+Component Composition with Props:
+Create a parent component that composes multiple child components. Pass props to each child component and use them to render meaningful content.
+
+Passing Object Props:
+Modify the parent component to pass an object as a prop to the child component. Have the child component display specific properties from the object.
+
+Advanced Prop Handling:
+Create a parent component that fetches data from an API. Pass this data as a prop to a child component and display the data in an organized way.

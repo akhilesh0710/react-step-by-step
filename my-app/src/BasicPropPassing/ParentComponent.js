@@ -2,10 +2,12 @@ import React from 'react'
 import ChildComponent from './ChildComponent'
 
 const ParentComponent = () => {
+
+  const message ="Hello, Ravi! How are you." 
   return (
     <div>
          
-        <ChildComponent name = "Ravi"/>
+        <ChildComponent  message = {message} />
     </div>
   )
 }

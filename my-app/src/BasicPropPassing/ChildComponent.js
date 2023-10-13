@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ChildComponent() {
+const ChildComponent = (props) => {
   return (
-    <h1>Child Component!</h1>
+    <h1>{props.message}</h1>
   )
 }
 
